@@ -32,6 +32,7 @@ import Neoteq from './company/Neo-teq.png'
 import solera from './company/solera.svg'
 import nullclass from './company/null-class.jpg'
 import countries from './Api.png'
+import wallero from './company/wallero_inc_logo.jpeg'
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -39,6 +40,8 @@ import tripguide from "./tripguide.png";
 import stackoverflowclone from './StackOverflowClone.png'
 import NotesApp from './NotesApp.png'
 import Api from './Api.png'
+import CoffeApp from './Coffee_app.png'
+import Yeldam from './yeldam.png'
 
 export {
   stackoverflowclone,
@@ -78,5 +81,8 @@ export {
   carrent,
   jobit,
   tripguide,
-  logo1
+  logo1,
+  wallero,
+  CoffeApp,
+  Yeldam
 };

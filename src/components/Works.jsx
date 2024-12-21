@@ -51,9 +51,8 @@ const ProjectCard = ({
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
         <div className="mt-4 flex flex-wrap gap-2">
-          {tags.map((tag)=>(
-            <p 
-          className={`text-[14px] ${tag.color}`}>#{tag.name}</p>
+          {tags.map((tag) => (
+            <p className={`text-[14px] ${tag.color}`}>#{tag.name}</p>
           ))}
         </div>
       </Tilt>
@@ -73,11 +72,15 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3x1 leading-[30px]"
         >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          The following projects showcase my expertise in full-stack
+          development, including React Native, MERN stack, and .NET Core. Each
+          project highlights my hands-on experience in building scalable,
+          high-performance applications. I've included links to the code
+          repositories and live demos, providing a detailed view of my ability
+          to solve complex problems, integrate diverse technologies, and manage
+          projects effectively using Agile and Scrum methodologies. These
+          projects reflect my commitment to delivering high-quality,
+          user-centered solutions.
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">

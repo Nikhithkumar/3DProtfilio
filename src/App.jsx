@@ -8,12 +8,7 @@ import {
   Tech,
   Experience,
   Works,
-  Feedbacks,
   Contact,
-  CanvasLoader,
-  EarthCanvas,
-  BallCanvas,
-  ComputersCanvas,
   StarsCanvas,
 } from "./components";
 

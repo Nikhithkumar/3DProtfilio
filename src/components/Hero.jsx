@@ -1,16 +1,20 @@
-import React, { useEffect, useState } from "react";
-import { motion } from "framer-motion";
+import React from "react";
 import { styles } from "../style";
 import { ComputersCanvas } from "./canvas";
 import { useTypewriter } from "react-simple-typewriter";
+import DownloadResume from "./component/DownloadPDF";
 
 const Hero = () => {
-const [typewriter]=useTypewriter({
-  words:['Full Stack Web Developer','React Native Developer'],
-  loop:{},
-  typeSpeed:100,
-  deleteSpeed:40
-})
+  const [typewriter] = useTypewriter({
+    words: [
+      "React Native Developer",
+      "Full Stack Developer",
+      "Dot Net Core Developer",
+    ],
+    loop: {},
+    typeSpeed: 100,
+    deleteSpeed: 40,
+  });
 
   return (
     <section className="relative w-full h-screen mx-auto">
@@ -26,10 +30,14 @@ const [typewriter]=useTypewriter({
             Hi, I'm <span className="text-[#915EFF] typing">Nikhith Kumar</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I am a <span className="text-[#915EFF] typing">{typewriter}</span> <br className="sm:block hidden" /> with experience in
-            building web applications <br className="sm:block hidden" />
-            and mobile apps using the MERN stack.
+            I am a <span className="text-[#915EFF] typing">{typewriter}</span>{" "}
+            <br className="sm:block hidden" /> with experience in building
+            mobile apps <br className="sm:block hidden" />
+            and web applications using the React Native and MERN stack.
           </p>
+          <div className="mt-5">
+            <DownloadResume />
+          </div>
         </div>
       </div>
       <ComputersCanvas />
